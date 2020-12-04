@@ -8,7 +8,7 @@ class TestController extends AbstractController{
     public function  index($val){
         $request = Request::createFromGlobals();
         dd(
-            $request->get('val')
+            $request->get('val'),"toto"
         
         );
     }
